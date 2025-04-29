@@ -2,7 +2,7 @@
 
 This R script calculates **neutrophil retention time** and **interaction dynamics** with pre-neoplastic cells (PNCs) using 3D time-lapse imaging data.
 
-## 🚀 Overview
+## Overview
 
 This pipeline:
 1. Calculates 3D distances between neutrophils and PNCs.
@@ -13,7 +13,7 @@ Future versions will integrate:
 - 3D segmentation
 - Distance transformation-based analysis
 
-## ⚙Key Assumptions
+## Key Assumptions
 
 - **PNCs are spatially fixed** over time (`Time == 0` is used).
 - The **distance threshold** for interaction is manully setted by measurement
